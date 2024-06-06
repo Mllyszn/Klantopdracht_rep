@@ -21,10 +21,12 @@
                 </a>
             </div>
             <div id="headerbuttons">
+
                 <a class="headerbutton" href="core/dienstenpage.php">Diensten</a>
                 <a class="headerbutton" href="core/recensiespage.php">Recensies</a>
                 <a class="headerbutton" href="core/overmijpage.php">Over mij</a>
                 <a class="headerbutton" href="core/contactpage.php">Contact</a>
+
             </div>
         </header>
     </div>
