@@ -1,4 +1,4 @@
-<?php define("BASEURL","http://localhost/klantopdracht4.2/Klantopdracht_rep/");?>
+<?php define("BASEURL","http://localhost/");?>
 <!DOCTYPE html>
 <html lang="en">
 
