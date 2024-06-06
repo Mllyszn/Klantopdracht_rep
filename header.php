@@ -18,9 +18,11 @@
                 </a>
             </div>
             <div id="headerbuttons">
-                <a class="headerbutton" href="#diensten">Diensten</a>
-                <a class="headerbutton" href="#recensies">Recensies</a>
-                <a class="headerbutton" href="#overmij">Over mij</a>
-                <a class="headerbutton" href="#contact">Contact</a>
+
+                <a class="headerbutton" href="core/dienstenpage.php">Diensten</a>
+                <a class="headerbutton" href="core/recensiespage.php">Recensies</a>
+                <a class="headerbutton" href="core/overmijpage.php">Over mij</a>
+                <a class="headerbutton" href="core/contactpage.php">Contact</a>
+              
             </div>
         </header>
