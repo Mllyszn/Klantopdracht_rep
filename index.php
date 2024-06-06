@@ -16,10 +16,10 @@
           </a>
         </div>
         <div id="headerbuttons">
-          <a href="#diensten">Diensten</a>
-          <a href="#recensies">Recensies</a>
-          <a href="#over mij">Over mij</a>
-          <a href="#contact">Contact</a>
+          <a href="core/dienstenpage.php">Diensten</a>
+          <a href="core/recensiespage.php">Recensies</a>
+          <a href="core/overmijpage.php">Over mij</a>
+          <a href="core/contactpage.php">Contact</a>
         </div>
       </header>
       <main>
