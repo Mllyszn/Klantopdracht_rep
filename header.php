@@ -1,3 +1,4 @@
+<?php define("BASEURL","http://localhost/klantopdracht4.2/Klantopdracht_rep/");?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tuinman Hogendijk</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="<?=BASEURL;?>assets/css/header.css">
+    <link rel="stylesheet" href="<?=BASEURL;?>assets/css/style.css" />
+    <link rel="stylesheet" href="<?=BASEURL;?>assets/css/footer.css">
     <link rel="icon" href="favicon.ico" />
 </head>
 
@@ -18,9 +21,9 @@
                 </a>
             </div>
             <div id="headerbuttons">
-                <a class="headerbutton" href="#diensten">Diensten</a>
-                <a class="headerbutton" href="#recensies">Recensies</a>
-                <a class="headerbutton" href="#overmij">Over mij</a>
-                <a class="headerbutton" href="#contact">Contact</a>
+                <a class="headerbutton" href="core/dienstenpage.php">Diensten</a>
+                <a class="headerbutton" href="core/recensiespage.php">Recensies</a>
+                <a class="headerbutton" href="core/overmijpage.php">Over mij</a>
+                <a class="headerbutton" href="core/contactpage.php">Contact</a>
             </div>
         </header>
