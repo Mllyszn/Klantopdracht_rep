@@ -13,21 +13,20 @@
 </head>
 
 <body>
+<nav>
     <div id="container">
         <header id="header">
             <div id="weblogo-container">
                 <a href="index.php">
-                    <img id="weblogo" src="assets/img/logo_ko.png" alt="weblogo">
+                    <img id="weblogo" src="<?= BASEURL; ?>assets/img/logo_ko.png" alt="weblogo">
                 </a>
             </div>
             <div id="headerbuttons">
-
-                <a class="headerbutton" href="core/dienstenpage.php">Diensten</a>
-                <a class="headerbutton" href="core/recensiespage.php">Recensies</a>
-                <a class="headerbutton" href="core/overmijpage.php">Over mij</a>
-                <a class="headerbutton" href="core/contactpage.php">Contact</a>
-
+                <a class="headerbutton" href="/core/dienstenpage.php">Diensten</a>
+                <a class="headerbutton" href="/core/recensiespage.php">Recensies</a>
+                <a class="headerbutton" href="/core/overmijpage.php">Over mij</a>
+                <a class="headerbutton" href="/core/contactpage.php">Contact</a>
             </div>
         </header>
     </div>
-</body
+</nav>

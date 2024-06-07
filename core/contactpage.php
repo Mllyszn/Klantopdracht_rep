@@ -1,7 +1,6 @@
 <?php
-include('../header.php')
+include ('../header.php')
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +29,7 @@ include('../header.php')
 
             <label for="adres">Adres</label>
             <input type="text" id="adres" name="plaatadres" placeholder="Uw adres.." required>
-            
+
             <label for="telnummer">Telefoon nummer</label>
             <input type="text" id="telnummer" name="telefoon nummer" placeholder="Uw telefoon nummer.." required>
 
@@ -46,13 +45,13 @@ include('../header.php')
     <br>
     <footer>
         <div class="footertxt">
-            <p>
+            <h4>
                 We streven ernaar om constant in contact te staan met onze klanten totdat de klus geklaard is. Als u
                 vragen
                 of speciale verzoeken heeft, stuur ons dan een bericht. Voor een vrijblijvende offerte kunt u contact
                 met
                 ons opnemen wanneer het u uitkomt. Wij zijn u graag van dienst!
-            </p>
+            </h4>
         </div>
     </footer>
 </body>
