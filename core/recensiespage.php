@@ -12,6 +12,7 @@
     <?php include ('../header.php') ?>
 
     <div class="recensie">
+
         <form action="recensiespage.php">
             <label for="subject">
                 <H2>Schrijf hier je recensie</H2>
@@ -24,5 +25,3 @@
 </body>
 <br>
 <?php include ('../footer.php') ?>
-
-</html>
