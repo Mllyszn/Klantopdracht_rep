@@ -1,27 +1,16 @@
+/* footer start */
 footer {
     background-color: #6aaf08;
+  }
+  
+  footer a:hover {
+    color: lightgray;
   }
   
   #footer-content {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-  }
-  
-  .footer-row {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  footer a {
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
-    font-size: 1.3rem;
-  }
-  
-  footer a:hover {
-    color: lightgray;
   }
   
   #copyright-container {
@@ -32,3 +21,4 @@ footer {
     font-family: sans-serif;
     font-size: 1rem;
   }
+  /* footer end */
