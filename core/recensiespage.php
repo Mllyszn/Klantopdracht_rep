@@ -1,4 +1,4 @@
-<?php include('../header.php')?>
+<?php include ('../header.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="recensie">
+    <div class="recensieInput">
         <form action="recensiespage.php">
             <label for="subject">Schrijf hier je recensie</label>
             <textarea id="subject" name="subject" placeholder="Schrijf hier.." rows="4" cols="50"></textarea>
@@ -19,9 +19,15 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-
+    <div class="recensies">
+        “Heel erg bedankt voor de efficiënte service, je was heel snel klaar en ik zal je nummer zeker behouden om je
+        weer te gebruiken.”
+        <hr>
+        Hella Hoes
+    </div>
 
 </body>
 
-<?php include('../footer.php')?>
+<?php include ('../footer.php') ?>
+
 </html>
