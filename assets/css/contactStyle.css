@@ -1,3 +1,38 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+nav header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color: #6aaf08;
+}
+
+#weblogo {
+  width: 130px;
+  padding: 0;
+  margin: 0;
+}
+
+#headerbuttons {
+  display: flex;
+  gap: 20px;
+}
+
+.headerbutton {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+.headerbutton:hover {
+  color: lightgray;
+}
+
 input[type="text"],
 input[type="mail"],
 select,
@@ -33,4 +68,39 @@ input[type="submit"]:hover {
 
 textarea {
   resize: none;
+}
+
+footer {
+  background-color: #6aaf08;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+
+footer a:hover {
+  color: lightgray;
+}
+
+#copyright-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1rem;
 }
