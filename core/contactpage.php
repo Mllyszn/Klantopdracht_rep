@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include('../header.php');
+?>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tuinman Hogendijk</title>
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="../assets/css/contactStyle.css">
-</head>
-
-<body>
+<!-- <body>
     <nav>
         <div id="container">
             <header id="header">
@@ -26,7 +19,7 @@
                 </div>
             </header>
         </div>
-    </nav>
+    </nav> -->
     <main>
         <h1>Contact Formulier</h1>
         <div class="contactform">

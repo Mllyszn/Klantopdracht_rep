@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/assets/css/footerStyle.css">
+
 <footer>
     <div id="footer-content">
         <div class="footer-row">
@@ -22,6 +24,5 @@
     </div>
 </footer>
 </div>
-</body>
 
 </html>
