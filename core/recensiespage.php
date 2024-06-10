@@ -1,8 +1,5 @@
-<<<<<<< Updated upstream
-=======
-<?php include ('../header.php') ?>
+<?php include('../header.php')?>
 
->>>>>>> Stashed changes
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,9 +22,6 @@
 
 
 </body>
-<<<<<<< Updated upstream
-=======
-<?php include ('../footer.php') ?>
 
->>>>>>> Stashed changes
+<?php include('../footer.php')?>
 </html>
