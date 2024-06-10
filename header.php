@@ -17,7 +17,7 @@
     <div id="container">
         <header id="header">
             <div id="weblogo-container">
-                <a href="index.php">
+                <a href="../index.php">
                     <img id="weblogo" src="<?= BASEURL; ?>assets/img/logo_ko.png" alt="weblogo">
                 </a>
             </div>

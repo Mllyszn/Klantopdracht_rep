@@ -1,6 +1,6 @@
 <?php
 include ('../header.php')
-?>
+    ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +19,7 @@ include ('../header.php')
     </header>
 
     <div class="contactform">
-        <form action="contactValipage.php">
+        <form action="reservatiepage.php">
 
             <label for="vnaam">Voornaam</label>
             <input type="text" id="vnaam" name="voornaam" placeholder="Uw voornaam.." required>
@@ -43,17 +43,16 @@ include ('../header.php')
         </form>
     </div>
     <br>
-    <footer>
-        <div class="footertxt">
-            <h4>
-                We streven ernaar om constant in contact te staan met onze klanten totdat de klus geklaard is. Als u
-                vragen
-                of speciale verzoeken heeft, stuur ons dan een bericht. Voor een vrijblijvende offerte kunt u contact
-                met
-                ons opnemen wanneer het u uitkomt. Wij zijn u graag van dienst!
-            </h4>
-        </div>
-    </footer>
+    <div class="footertxt">
+        <h4>
+            We streven ernaar om constant in contact te staan met onze klanten totdat de klus geklaard is. Als u
+            vragen
+            of speciale verzoeken heeft, stuur ons dan een bericht. Voor een vrijblijvende offerte kunt u contact
+            met
+            ons opnemen wanneer het u uitkomt. Wij zijn u graag van dienst!
+        </h4>
+    </div>
+    <?php include ('../footer.php') ?>
 </body>
 
 </html>
