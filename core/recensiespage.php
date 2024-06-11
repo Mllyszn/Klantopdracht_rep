@@ -26,14 +26,14 @@ if (isset($_POST['add'])) {
     <div class="recensie">
 
         <form method="post">
-            <label for="naam">Schrijf hier je naam</label>
-            <input type="text" id="naam" name="naam" placeholder="Schrijf hier..">
+            <!-- <label for="naam">Schrijf hier je naam</label>
+            <input type="text" id="naam" name="naam" placeholder="Schrijf hier.."> -->
             <label for="subject">
                 <H2>Schrijf hier je recensie</H2>
             </label>
             <textarea id="subject" name="bericht" placeholder="Schrijf hier.." rows="4" cols="50"></textarea>
 
-            <input type="submit" value="add">
+            <input type="submit" name="add">
         </form>
     </div>
 </body>
