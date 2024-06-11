@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="/assets/css/footerStyle.css">
-
+<br>
 <footer>
     <div id="footer-content">
         <div class="footer-row">

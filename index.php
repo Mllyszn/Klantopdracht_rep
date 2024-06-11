@@ -10,15 +10,13 @@
 </head>
 
 <body>
-  <?php include ('header.php')?>
+  <?php include ('header.php') ?>
 
   <main>
     <div class="nepimg">
       <img src="assets/img/emptyimgT.jpg" alt="emptyImg">
       <!-- <h3>(slideshow foto's) ^</h3> -->
-    </div>
-<<<<<<< Updated upstream
-=======
+   
     <div class="inleiding">
       <H4>Welkom bij de website van Hendrik Hogendijk, hovenier in de regio Utrecht, Zeist en de Bilt. </H4>
 
@@ -34,7 +32,6 @@
         een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een gezellig terras en een
         kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
     </div>
->>>>>>> Stashed changes
   </main>
   <?php include ('footer.php'); ?>
 </body>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 10, 2024 at 09:27 AM
+-- Generation Time: Jun 11, 2024 at 01:37 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `opdrachten` (
   `id` int(11) NOT NULL,
-  `datum` date NOT NULL,
+  `datum` datetime NOT NULL,
   `voornaam` varchar(255) NOT NULL,
   `achternaam` varchar(255) NOT NULL,
   `adres` varchar(255) NOT NULL,
@@ -38,12 +38,18 @@ CREATE TABLE `opdrachten` (
   `opmerking` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+-- --------------------------------------------------------
+
 --
--- Dumping data for table `opdrachten`
+-- Table structure for table `recensies`
 --
 
-INSERT INTO `opdrachten` (`id`, `datum`, `voornaam`, `achternaam`, `adres`, `telefoonnummer`, `email`, `opmerking`) VALUES
-(19, '2024-10-06', 'naam', 'achternaam', 'vondellaan', 61231, '123@glu.nl', 'opmerking');
+CREATE TABLE `recensies` (
+  `id` int(11) NOT NULL,
+  `datum` datetime NOT NULL,
+  `naam` varchar(255) NOT NULL,
+  `bericht` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Indexes for dumped tables
@@ -56,6 +62,12 @@ ALTER TABLE `opdrachten`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `recensies`
+--
+ALTER TABLE `recensies`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -63,7 +75,13 @@ ALTER TABLE `opdrachten`
 -- AUTO_INCREMENT for table `opdrachten`
 --
 ALTER TABLE `opdrachten`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
+--
+-- AUTO_INCREMENT for table `recensies`
+--
+ALTER TABLE `recensies`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
