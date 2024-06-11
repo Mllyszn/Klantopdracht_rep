@@ -8,7 +8,9 @@
     <title>Over mij</title>
 </head>
 <body>
-    
+    <div class="ikText">
+        <p>Ik ben Hendrik Hogendijk een Hovenier</p>
+    </div>
 </body>
 <?php include('../footer.php')?>
 </html>
