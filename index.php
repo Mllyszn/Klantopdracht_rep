@@ -16,15 +16,21 @@
     <div class="nepimg">
       <img src="assets/img/emptyimgT.jpg" alt="emptyImg">
       <!-- <h3>(slideshow foto's) ^</h3> -->
-    </div>
-    <div class="imgtext">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc tortor, fermentum id pretium id, fringilla
-        sed enim. Integer et ipsum eget mauris porttitor pretium semper a sapien. Vestibulum consequat dui sed purus
-        gravida fermentum. In ut mauris ut mi consectetur consectetur in id libero. Sed sodales pulvinar blandit. Nulla
-        sollicitudin, eros vitae blandit pharetra, est lorem vestibulum dui, nec sagittis quam justo id eros. Nulla sed
-        lacus tincidunt, maximus leo sed, lobortis arcu. Fusce pulvinar convallis cursus. Nunc eget efficitur nibh.
-        Donec euismod turpis sed tempus tristique. Quisque scelerisque sollicitudin massa a ornare. Fusce tempus ligula
-        massa, quis posuere.</p>
+   
+    <div class="inleiding">
+      <H4>Welkom bij de website van Hendrik Hogendijk, hovenier in de regio Utrecht, Zeist en de Bilt. </H4>
+
+      <div class="portret">
+        <img src="/assets/img/Hendrik_foto.png" alt="portret van Hendrik Hogendijk">
+      </div>
+
+        <p>De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt. Bij
+        Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in zijn of haar tuin.
+        Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af te stemmen.
+
+        Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant staat voor
+        een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een gezellig terras en een
+        kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
     </div>
   </main>
   <?php include ('footer.php'); ?>
