@@ -46,14 +46,14 @@ html {
   margin-top: 15px;
 }
 
-.inleiding H1{
+.welkom {
   text-align: center;
 }
 
-/* .portret{
-  height: 10px;
-  width: 20px;
-} */
+.portret img{
+  height: 125px;
+  width: 125px;
+}
 
 .inleiding p {
   text-align: center;
