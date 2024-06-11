@@ -12,13 +12,14 @@
 <body>
   <?php include ('header.php') ?>
 
-  <main>
-    <div class="nepimg">
-      <img src="assets/img/emptyimgT.jpg" alt="emptyImg">
-      <!-- <h3>(slideshow foto's) ^</h3> -->
+  <div class="inleiding">
+    <H1>Welkom bij de website van Hendrik Hogendijk, hovenier in de regio Utrecht, Zeist en de Bilt. </H1>
+    <br>
 
-      <div class="inleiding">
-        <H1>Welkom bij de website van Hendrik Hogendijk, hovenier in de regio Utrecht, Zeist en de Bilt. </H1>
+    <main>
+      <div class="nepimg">
+        <img src="assets/img/emptyimgT.jpg" alt="emptyImg">
+        <!-- <h3>(slideshow foto's) ^</h3> -->
         <br>
         <div class="portret">
           <img src="/assets/img/Hendrik_foto.png" alt="portret van Hendrik Hogendijk">
@@ -35,6 +36,6 @@
           een
           kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
       </div>
-  </main>
-  <?php include ('footer.php'); ?>
+    </main>
+    <?php include ('footer.php'); ?>
 </body>
