@@ -1,46 +1,113 @@
-nav header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  background-color: #6aaf08;
-}
-
-#weblogo {
-  width: 130px;
-  padding: 0;
-  margin: 0;
-}
-
-#headerbuttons {
-  display: flex;
-  gap: 20px;
-}
-
-.headerbutton {
-<<<<<<< Updated upstream
-  color: white;
-=======
-  color: #6aaf08;
->>>>>>> Stashed changes
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-}
-
-.headerbutton:hover {
-  color: lightgray;
-}
-
-
-<<<<<<< Updated upstream
 body,
 html {
   padding: 0;
   margin: 0;
 }
-=======
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 70px;
+  background-color: #deddd9;
+  box-shadow: 0px 1px whitesmoke;
+  /* sticky header */
+  position: sticky;
+  top: 0;
+  /* Animation @media */
+  transition: 1s;
+  z-index: 100;
+}
+
+#weblogo {
+  width: 115px;
+  padding: 0;
+  margin: 0;
+  /* Animation @media */
+  transition: 1s;
+}
+
+#headerbuttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerbutton {
+  color: #6aaf08;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  /* Animation @media */
+  transition: 1s;
+}
+
+.headerbutton:hover {
+  color: green;
+}
+
+#contact-btn {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  background-color: #6aaf08;
+  padding: 10px;
+  /* Animation @media */
+  transition: 1s;
+}
+
+#contact-btn:hover {
+  background-color: green;
+}
+
+#menu-btn {
+  display: none;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  /* Animation @media */
+  transition: 1s;
+}
+
+#menu-icon {
+  width: 70px;
+}
+
+/*header kopjes  */
+@media (max-width: 960px) {
+  header {
+    gap: 20px;
+  }
+  #weblogo {
+    width: 100px;
+  }
+  .headerbutton {
+    font-size: 0.1rem;
+  }
+  #contact-btn {
+    font-size: 1.2rem;
+  }
+}
+
+/* header menu icon */
+@media (max-width: 825px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .headerbutton {
+    display: none;
+  }
+  #contact-btn {
+    display: none;
+  }
+  #menu-btn {
+    display: block;
+  }
+}
+
 #contact-btn:hover {
   background-color: green;
 }
@@ -90,4 +157,3 @@ html {
     display: block;
   }
 }
->>>>>>> Stashed changes
