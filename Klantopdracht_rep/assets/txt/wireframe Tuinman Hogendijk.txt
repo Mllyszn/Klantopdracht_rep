@@ -1,0 +1,7 @@
+wireframe Tuinman Hogendijk
+
+header includes: 
+-logo
+-contact
+-reviews
+-about me

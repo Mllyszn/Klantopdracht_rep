@@ -1,0 +1,29 @@
+/* body start*/
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.nepimg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-top: 15px;
+}
+
+.welkom {
+  text-align: center;
+}
+
+.portret img{
+  height: 125px;
+  width: 125px;
+}
+
+.inleiding p {
+  text-align: center;
+}
+/* body end*/
+
