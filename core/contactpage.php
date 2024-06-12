@@ -34,7 +34,7 @@ include ('../header.php');
                 <label for="subject">Vraag/Opmerking</label>
                 <textarea id="subject" name="opmrk" placeholder="Schrijf hier.." rows="4" cols="50"></textarea>
 
-                <input type="submit" value="Submit" name="add">
+                <input type="submit" value="Maak afspraak" name="add">
             </form>
         </div>
     </main>
