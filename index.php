@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  
+
   <?php include ('header.php') ?>
 
   <main>
@@ -33,9 +33,10 @@
           kleurrijke bloemenborder: ik stop al mijn energie erin.
         </p>
       </div>
-      <div class="nepimg">
-        <img src="assets/img/emptyimgT.jpg" alt="emptyImg">
-      </div>
+
+      <?php
+      include ('core/slideshow.php');
+      ?>
 
       <div class="uitleg">
         <div class="ontwerp">

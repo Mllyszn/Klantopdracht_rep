@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="diensten">
+        <div class="diensten">
         <div class="Tontwerp">
             <img src="/assets/img/icon-tuinontwerp.png" alt="Foto ontwerp">
             <h4>Tuin ontwerp</H4>
@@ -43,13 +43,6 @@
             </p>
         </div>
     </div>
-
-    <!-- <div class="container">
-        <div class="box">A</div>
-        <div class="box">B</div>
-        <div class="box">C</div>
-        <div class="box">D</div>
-    </div> -->
 
 </body>
 <?php include ('../footer.php') ?>

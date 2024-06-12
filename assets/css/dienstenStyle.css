@@ -1,14 +1,14 @@
 .diensten img {
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 250px;
 }
 
 .diensten {
     padding: 50px;
     margin: 75px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 50px;
   grid-row-gap: 50px;
 }
@@ -25,16 +25,3 @@
 .Zvijvers {
   grid-area: 2 / 2 / 3 / 3;
 }
-
-
-/* .container{
-    margin: 20px auto;
-    width:400px;
-    height:400px;
-    background-color:#fff;
-    display:grid;
-    grid-template-columns: 200px 200px;
-    grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-} */
