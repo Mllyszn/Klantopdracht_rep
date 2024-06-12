@@ -19,34 +19,12 @@
             vertical-align: middle;
         }
 
-        /* Slideshow container */
         .slideshow-container {
             max-width: 1000px;
             position: relative;
             margin: auto;
         }
 
-        /* Caption text */
-        .text {
-            color: #f2f2f2;
-            font-size: 15px;
-            padding: 8px 12px;
-            position: absolute;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-        }
-
-        /* Number text (1/3 etc) */
-        .numbertext {
-            color: #f2f2f2;
-            font-size: 12px;
-            padding: 8px 12px;
-            position: absolute;
-            top: 0;
-        }
-
-        /* The dots/bullets/indicators */
         .dot {
             height: 15px;
             width: 15px;
@@ -61,7 +39,6 @@
             background-color: #717171;
         }
 
-        /* Fading animation */
         .fade {
             animation-name: fade;
             animation-duration: 1.5s;
@@ -77,7 +54,6 @@
             }
         }
 
-        /* On smaller screens, decrease text size */
         @media only screen and (max-width: 300px) {
             .text {
                 font-size: 11px
@@ -90,17 +66,14 @@
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
             <img src="/assets/img/slideshow_foto_1.png" width="1000" height="600">
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
             <img src="/assets/img/slideshow_foto_2.png" width="1000" height="600">
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
             <img src="/assets/img/slideshow_foto_3.png" width="1000" height="600">
         </div>
 
