@@ -25,7 +25,6 @@
           Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in zijn of haar
           tuin.
           Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af te stemmen.
-
           Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant staat
           voor
           een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een gezellig terras en
