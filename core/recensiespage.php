@@ -1,4 +1,5 @@
 <?php
+define("BASEURL", "http://localhost/");
 include ('../database/db_connect.php');
 if (isset($_POST['add'])) {
     $huidigeDatumTijd = date('Y-m-d H:i:s');
@@ -16,7 +17,9 @@ if (isset($_POST['add'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/recensieStyle.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/headerStyle.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/recensieStyle.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/footerStyle.css">
     <title>Recensies</title>
 </head>
 
