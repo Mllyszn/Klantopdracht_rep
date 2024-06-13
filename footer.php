@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="/assets/css/footerStyle.css">
 <br>
 <footer>
     <div id="footer-content">
@@ -27,6 +26,5 @@
         <p>Copyright © 2024 Midnight Coders</p>
     </div>
 </footer>
-</div>
-
+</body>
 </html>
