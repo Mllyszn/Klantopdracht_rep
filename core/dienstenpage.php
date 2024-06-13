@@ -1,4 +1,7 @@
-<?php include ('../header.php') ?>
+<?php 
+define("BASEURL", "http://localhost/");
+include ('../header.php')
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,11 +10,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/dienstenStyle.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/headerStyle.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/dienstenStyle.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/footerStyle.css">
     <title>Diensten</title>
 </head>
 
 <body>
-        <div class="diensten">
+    <div class="diensten">
         <div class="Tontwerp">
             <img src="/assets/img/icon-tuinontwerp.png" alt="Foto ontwerp">
             <h4>Tuin ontwerp</H4>

@@ -4,13 +4,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>test</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="<?= BASEURL; ?>assets/css/indexStyle.css">
-  <link rel="stylesheet" href="<?= BASEURL; ?>assets/css/headerStyle.css">
-  <link rel="stylesheet" href="/assets/css/footerStyle.css">
-  <link rel="stylesheet" href="<?= BASEURL; ?>assets/css/contactStyle.css">
-  <link rel="stylesheet" href="<?= BASEURL; ?>assets/css/recensieStyle.css">
+  <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/headerStyle.css">
+  <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/indexStyle.css">
+  <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/footerStyle.css">
+
   <style>
     * {
       box-sizing: border-box;
