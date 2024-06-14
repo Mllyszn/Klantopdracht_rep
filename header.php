@@ -1,5 +1,6 @@
 <nav>
   <header>
+    <script src="/assets/js/menu.js"></script>
     <div id="weblogo-container">
       <a href="#">
         <img id="weblogo" src="assets/img/logo_ko.png" alt="weblogo">

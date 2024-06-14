@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/headerStyle.css">
   <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/indexStyle.css">
   <link rel="stylesheet" href="<?= BASEURL; ?>/assets/css/footerStyle.css">
-
   <style>
     * {
       box-sizing: border-box;
