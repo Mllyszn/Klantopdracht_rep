@@ -13,11 +13,11 @@ header {
   background-color: #deddd9;
   box-shadow: 0px 1px whitesmoke;
   /* sticky header */
-  position: sticky;
   top: 0;
+  position: sticky;
   /* Animation @media */
   transition: 1s;
-  z-index: 100;
+  z-index: 1000;
 }
 
 #weblogo {
@@ -40,7 +40,7 @@ header {
   font-family: sans-serif;
   font-size: 1.5rem;
   /* Animation @media */
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .headerbutton:hover {
@@ -55,24 +55,11 @@ header {
   background-color: #6aaf08;
   padding: 10px;
   /* Animation @media */
-  transition: 1s;
+  transition: 0.5s;
 }
 
 #contact-btn:hover {
   background-color: green;
-}
-
-#menu-btn {
-  display: none;
-  font-size: 1rem;
-  color: white;
-  text-decoration: none;
-  /* Animation @media */
-  transition: 1s;
-}
-
-#menu-icon {
-  width: 70px;
 }
 
 /*header kopjes  */
@@ -91,8 +78,65 @@ header {
   }
 }
 
-/* header menu icon */
-@media (max-width: 825px) {
+#drop-btn {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  /* Animation @media */
+  transition: 1s;
+}
+
+#menu-icon {
+  width: 70px;
+}
+
+#menu-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  z-index: 999;
+  background-color: #333;
+}
+
+#close-menu-btn {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#menu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 60px;
+}
+
+.menu-link {
+  color: #6aaf08;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.menu-link:hover {
+  color: lightgray;
+}
+
+@media (max-width: 730px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -103,7 +147,7 @@ header {
   #contact-btn {
     display: none;
   }
-  #menu-btn {
+  #drop-btn {
     display: block;
   }
 }
