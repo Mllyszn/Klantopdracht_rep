@@ -3,7 +3,7 @@
     <script src="/assets/js/menu.js"></script>
     <div id="weblogo-container">
       <a href="#">
-        <img id="weblogo" src="assets/img/logo_ko.png" alt="weblogo">
+        <img id="weblogo" src="<?= BASEURL; ?>/assets/img/logo_ko.png" alt="weblogo">
       </a>
     </div>
     <div id="headerbuttons">
