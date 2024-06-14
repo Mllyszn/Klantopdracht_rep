@@ -16,7 +16,6 @@
   <?php include ('header.php') ?>
 
   <main>
-
     <div class="welkom">
       <H1>Welkom bij de website van Hendrik Hogendijk, hovenier in de regio Utrecht, Zeist en de Bilt. </H1>
       <br>
@@ -71,6 +70,5 @@
         </div>
       </div>
     </div>
-
   </main>
   <?php include ('footer.php'); ?>
