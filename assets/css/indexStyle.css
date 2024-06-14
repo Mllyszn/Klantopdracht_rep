@@ -4,7 +4,7 @@ html {
   margin: 0;
 }
 
-.nepimg img{
+.nepimg img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -16,11 +16,31 @@ html {
   text-align: center;
 }
 
-.portret img{
+.portret img {
   height: 125px;
   width: 125px;
 }
 
 .inleiding p {
   text-align: center;
+}
+
+.inleiding-container {
+  display: flex;
+}
+
+.inleiding-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.uitleg-container {
+  display: flex;
+}
+
+.uitleg-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
 }
